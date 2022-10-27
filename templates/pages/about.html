@@ -3,12 +3,12 @@
 {% load static%}
 
 {% block content %}
-<section id="showcase-inner" class="py-5 text-white">
+<section id="showcase-inner" class="py-4 text-white">
     <div class="container">
       <div class="row text-center">
         <div class="col-md-12">
           <h1 class="display-4">About Housepedia Real Estate </h1>
-          <p class="lead">Living simplified ! reimagining real estate to make it easier to unlock life’s next chapter.</p>
+          <p class="lead">Living simplified ! reimagining real estate to make it easier to unlock lifes next chapter.</p>
         </div>
       </div>
     </div>
@@ -34,7 +34,7 @@
       <div class="row">
         <div class="col-md-8">
           <h2>We Search For The Perfect Home</h2>
-          <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, pariatur!</p>
+          <p class="lead">Whether you are looking to rent, buy or sell your home, Housepedia's directory of local real estate agents and brokers will connect you with professionals who can help meet your needs</p>
           <img src="{% static 'img/about.jpg' %}" alt="">
           <p class="mt-4">Housepedia, the most-visited real estate website in the United States, provides 
             users with an on-demand experience for selling, buying, renting, and financing 
@@ -64,7 +64,7 @@
   <!-- Work -->
   <section id="work" class="bg-dark text-white text-center">
     <h2 class="display-4">We Work For You</h2>
-    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem velit aperiam, unde aliquid at similique!</h4>
+    <h4>Whether you are looking to rent, buy or sell your home, Housepedia's directory of local real estate agents and brokers will connect you with professionals who can help meet your needs</h4>
     <hr>
     <a href="{% url 'listings' %}" class="btn btn-secondary text-white btn-lg">View Our Featured Listings</a>
   </section>
@@ -77,7 +77,7 @@
       {% if realtors %}
         {% for realtor in realtors %}
         <div class="col-md-4">
-            <img src="{{ realtor.photo.url }}" alt="" class="rounded-circle mb-3">
+            <img src="{{ realtor.photo.url }}" alt="" class="rounded-circle mb-2">
             <h4>{{ realtor.name }}</h4>
             <p class="text-success">
               <i class="fas fa-award text-success mb-3"></i> Realtor</p>
