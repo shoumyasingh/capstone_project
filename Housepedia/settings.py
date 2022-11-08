@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.humanize',
+    
 ]
 
 MIDDLEWARE = [
@@ -146,10 +147,17 @@ MESSAGE_TAGS = {
     messages.ERROR: 'danger'
 }
 
+# Email config
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST= 'smtp.gmail.com'
+EMAIL_PORT= 587
+EMAIL_HOST_USER='shoumyasingh1408@gmail.com'
+EMAIL_HOST_PASSORD='Hello!world1408'
+EMAIL_USE_TLS=True
 
-try:
-    from .local_settings import *
-except ImportError:
-    pass
+# try:
+#     from .local_settings import *
+# except ImportError:
+#     pass
 
 
