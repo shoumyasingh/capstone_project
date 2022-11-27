@@ -70,3 +70,9 @@ def search(request):
   }
 
   return render(request, 'listings/search.html', context)
+
+def default_map(request):
+      context = {
+        'listing': listing
+        }
+      return render(request, 'listing.html', context)

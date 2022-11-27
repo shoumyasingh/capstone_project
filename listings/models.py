@@ -1,16 +1,20 @@
 from django.db import models
 from datetime import datetime
 from realtors.models import Realtor
+from django_google_maps import fields as map_fields
+
 
 # Create your models here.
 
 class Listing(models.Model):
     realtor = models.ForeignKey(Realtor, on_delete=models.DO_NOTHING)
     title = models.CharField(max_length=200)
-    address = models.CharField(max_length=200)
+    # address = models.CharField(max_length=200)
     city = models.CharField(max_length=100)
     state = models.CharField(max_length=100)
     zipcode = models.CharField(max_length=20)
+    address = map_fields.AddressField(max_length=200)
+    geolocation = map_fields.GeoLocationField(max_length=100, blank=True, default='')
     description = models.TextField(blank=True)
     price = models.IntegerField()
     bedrooms = models.IntegerField()

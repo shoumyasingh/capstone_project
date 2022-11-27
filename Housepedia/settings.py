@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.humanize',
+    'django_google_maps',
     
 ]
 
@@ -149,15 +150,21 @@ MESSAGE_TAGS = {
 
 # Email config
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST= 'smtp.gmail.com'
-EMAIL_PORT= 587
-EMAIL_HOST_USER='shoumyasingh1408@gmail.com'
-EMAIL_HOST_PASSORD='Hello!world1408'
-EMAIL_USE_TLS=True
+# EMAIL_HOST= 'smtp.gmail.com'
+# EMAIL_PORT= 587
+# EMAIL_HOST_USER='shoumyasingh1408@gmail.com'
+# EMAIL_HOST_PASSORD='Hello!world1408'
+# EMAIL_USE_TLS=True
+
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp-mail.outlook.com'
+EMAIL_HOST_USER = 'dkranchii@outlook.com'
+EMAIL_HOST_PASSWORD = '$Ruchisingh1'
+EMAIL_PORT = 587
 
 # try:
 #     from .local_settings import *
 # except ImportError:
 #     pass
 
-
+GOOGLE_MAPS_API_KEY = 'AIzaSyCD7H-K2m2OdnzEpTrnvBXWMUYMXaVlrFc'

@@ -1,5 +1,8 @@
 from django.contrib import admin
 from .models import Listing
+from django_google_maps import widgets as map_widgets
+from django_google_maps import fields as map_fields
+
 
 class ListingAdmin(admin.ModelAdmin):
     list_display = ('id', 'title', 'is_published', 'price', 'list_date', 'realtor')
@@ -8,6 +11,10 @@ class ListingAdmin(admin.ModelAdmin):
     list_editable = ('is_published',)
     search_fields = ('title', 'description', 'address', 'city', 'state', 'zipcode', 'price')
     list_per_page = 25
+    formfield_overrides = {
+        map_fields.AddressField: {'widget': map_widgets.GoogleMapsAddressWidget},
+    }
 
 admin.site.register(Listing, ListingAdmin)
+
 
