@@ -152,14 +152,14 @@ MESSAGE_TAGS = {
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 # EMAIL_HOST= 'smtp.gmail.com'
 # EMAIL_PORT= 587
-# EMAIL_HOST_USER='shoumyasingh1408@gmail.com'
-# EMAIL_HOST_PASSORD='Hello!world1408'
+# EMAIL_HOST_USER=''
+# EMAIL_HOST_PASSORD=''
 # EMAIL_USE_TLS=True
 
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp-mail.outlook.com'
-EMAIL_HOST_USER = 'dkranchii@outlook.com'
-EMAIL_HOST_PASSWORD = '$Ruchisingh1'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
 EMAIL_PORT = 587
 
 # try:
@@ -167,4 +167,4 @@ EMAIL_PORT = 587
 # except ImportError:
 #     pass
 
-GOOGLE_MAPS_API_KEY = 'AIzaSyCD7H-K2m2OdnzEpTrnvBXWMUYMXaVlrFc'
+GOOGLE_MAPS_API_KEY = ''
