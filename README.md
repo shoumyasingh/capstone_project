@@ -17,10 +17,11 @@ The goal of the Housepedia real estate platforms is to efficiently solve a user'
 
 <details>
 <summary>Click here for the Google Slide with Details</summary>
-<a href="https://docs.google.com/presentation/d/1L_xvQDlioCY-XgoFilKNnvpnN8ZRxzgDArRJU3icTa0/present?usp=sharing"> Google Slide</a>
+<a href="https://github.com/shoumyasingh/capstone_project/blob/9110d1f4c78a47f394e7cd6b48c0d3714ab2f606/Final%20Capstone%20PPT_Shoumya_Gayatri.pdf"> Google Slide</a>
 </details>
 
 <details>
 <summary>Click here for the document with detailed Explanation</summary>
-<a href="https://github.com/shoumyasingh/Cloud-Computing-Infrastructure/blob/main/kubernetes_Signature_Project/CS571_Signature_Project_Shoumya_Singh.pdf"> Document</a>
+<a href="https://github.com/shoumyasingh/capstone_project/blob/9110d1f4c78a47f394e7cd6b48c0d3714ab2f606/Capstone_Final_Report_SFBU_shoumya_gayatri%20.pdf"> Document</a>
 </details>
+
