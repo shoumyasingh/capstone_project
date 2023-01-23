@@ -15,3 +15,12 @@ The goal of the Housepedia real estate platforms is to efficiently solve a user'
 - Allow for efficient real estate research.
 - Allow for Google navigation for property location.
 
+<details>
+<summary>Click here for the Google Slide with Details</summary>
+<a href="https://docs.google.com/presentation/d/1L_xvQDlioCY-XgoFilKNnvpnN8ZRxzgDArRJU3icTa0/present?usp=sharing"> Google Slide</a>
+</details>
+
+<details>
+<summary>Click here for the document with detailed Explanation</summary>
+<a href="https://github.com/shoumyasingh/Cloud-Computing-Infrastructure/blob/main/kubernetes_Signature_Project/CS571_Signature_Project_Shoumya_Singh.pdf"> Document</a>
+</details>
