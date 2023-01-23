@@ -16,6 +16,11 @@ The goal of the Housepedia real estate platforms is to efficiently solve a user'
 - Allow for Google navigation for property location.
 
 <details>
+<summary>Click here for the Video </summary>
+<a href="https://drive.google.com/file/d/1clqYR92IACKHI3-CByI734HrLA1-E_hO/view?usp=sharing"> Video Link </a>
+</details>
+
+<details>
 <summary>Click here for the Google Slide with Details</summary>
 <a href="https://github.com/shoumyasingh/capstone_project/blob/9110d1f4c78a47f394e7cd6b48c0d3714ab2f606/Final%20Capstone%20PPT_Shoumya_Gayatri.pdf"> Google Slide</a>
 </details>
